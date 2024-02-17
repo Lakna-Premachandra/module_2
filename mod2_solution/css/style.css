@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 2em; 
+}
+
+
+.heading_1{
+background-color: lightcoral;
+}
+
+.heading_2{
+background-color:maroon;
+color: whitesmoke;
+}
+
+.heading_3{
+background-color: darkkhaki;
+}
+
+main {
+  padding: 25px;
+}
+
+/* Section styles */
+.section {
+  border: 5px solid black;
+  margin-bottom: 20px;
+  position: relative;
+  width: 31.33%; 
+  float: left;
+  margin: 5px;
+}
+
+.section h2 {
+  border-bottom :2px  solid black;
+  border-left:2px  solid black;
+  width: 110px;
+  text-align: center;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.25em; /* 25% larger than the default font size */
+}
+
+.section p {
+  margin-top: 1.2rem;
+  padding: 20px;
+}
+
+/* Responsive layout */
+@media (min-width: 768px) and (max-width: 991px) {
+  .section {
+      width: 48%;
+      float: left;
+      margin: 5px; 
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+      width: 100%;
+  }
+}
+
+
+
+
